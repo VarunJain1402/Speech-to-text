@@ -27,12 +27,13 @@ function App () {
 
         <div className='main-content'>{transcript}</div>
 
-        <div className='btn--style'>
-          <button onClick={()=>setCopied({transcript})}>
+        <div className='btn-style'>
+          <button className="copied" onClick={()=>setCopied({transcript})}>
             Was it copied? {isCopied ? 'Yes! 👍' : 'Nope! 👎'}
           </button>
-          <button onClick={listening}>Start Listening</button>
-          <button onClick={SpeechRecognition.stopListening}>
+          <button className="startBtn"
+          onClick={listening}>Start Listening</button>
+          <button className="stopBtn" onClick={SpeechRecognition.stopListening}>
             Stop Listening
           </button>
         </div>
