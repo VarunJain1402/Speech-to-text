@@ -1,6 +1,5 @@
 {
   "name": "speech_to_text",
-  "homepage": "https://VarunJain1402.github.io/Speech-to-text",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
